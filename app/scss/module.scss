@@ -1,0 +1,31 @@
+.module-container {
+  .module-arrow {
+    padding-top: 50px !important;
+    font-size: 1em;
+
+    @media (min-width: 1024px) {
+      font-size: 3em;
+    }
+
+    .only-desktop {
+      display: none;
+      @media (min-width: 1024px) {
+        display: block;
+      }
+    }
+
+    .only-mobile {
+      display: block;
+      @media (min-width: 1024px) {
+        display: none;
+      }
+    }
+  }
+
+  h1.header-title {
+    font-size: 2em !important;
+    @media (min-width: 1024px) {
+      font-size: 3em !important;
+    }
+  }
+}
