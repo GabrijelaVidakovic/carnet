@@ -722,6 +722,9 @@ header {
   @media (min-width: 768px) {
     .footer-container {
       font-size: 1em; } }
+  .footer-container .row {
+    max-width: 1250px;
+    margin: 0 auto; }
   .footer-container a {
     color: #ffffff;
     text-decoration: underline;
