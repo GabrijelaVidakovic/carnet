@@ -604,7 +604,9 @@ header {
     font-weight: normal; }
 
 .main-container {
-  width: 100%; }
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto; }
   .main-container a:hover {
     color: #e27173;
     text-decoration: none; }
@@ -636,9 +638,11 @@ header {
     .module-container .module-item .module-number {
       font-size: 2em;
       width: 2em;
-      height: 2em;
-      border-radius: 50%;
+      height: 1em;
+      border-top-left-radius: 4rem;
+      border-top-right-radius: 4rem;
       border: 3px solid;
+      border-bottom: 0;
       text-align: center;
       margin: 0 auto;
       margin-top: -1em;
@@ -648,7 +652,7 @@ header {
       position: relative; }
     .module-container .module-item .module-title {
       border-top: 3px solid #e27173;
-      margin-top: -2em;
+      margin-top: -1em;
       background-color: #314455;
       color: #fff;
       padding: 2em 1.5em 1.5em;
@@ -656,7 +660,8 @@ header {
       border-bottom-left-radius: 4%;
       font-size: 1.1em;
       font-weight: 500;
-      line-height: 1.2; }
+      line-height: 1.2;
+      margin-bottom: 0; }
       @media (min-width: 768px) {
         .module-container .module-item .module-title {
           font-size: 1em; } }

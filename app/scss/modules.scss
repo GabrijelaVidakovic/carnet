@@ -1,5 +1,7 @@
 .main-container {
   width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
 
   a:hover {
     color: #e27173;
@@ -47,9 +49,11 @@
     .module-number {
       font-size: 2em;
       width: 2em;
-      height: 2em;
-      border-radius: 50%;
+      height: 1em;
+      border-top-left-radius: 4rem;
+      border-top-right-radius: 4rem;
       border: 3px solid;
+      border-bottom: 0;
       text-align: center;
       margin: 0 auto;
       margin-top: -1em;
@@ -60,7 +64,7 @@
     }
     .module-title {
       border-top: 3px solid #e27173;
-      margin-top: -2em;
+      margin-top: -1em;
       background-color: #314455;
       color: #fff;
       padding: 2em 1.5em 1.5em;
@@ -69,6 +73,7 @@
       font-size: 1.1em;
       font-weight: 500;
       line-height: 1.2;
+      margin-bottom: 0;
 
       @media (min-width: 768px) {
         font-size: 1em;
