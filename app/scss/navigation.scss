@@ -1,4 +1,3 @@
-// tu
 .eng-project.row,
 .eng-project .row {
   margin: 0 !important;
@@ -17,6 +16,10 @@
     @media (min-width: 1024px) {
       background-color: transparent;
     }
+  }
+
+  &.row {
+    height: 43px;
   }
 
   ul.dropdown-menu.show {
@@ -294,4 +297,3 @@
     }
   }
 }
-// i tu
