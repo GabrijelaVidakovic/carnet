@@ -11,422 +11,419 @@
 
     <link rel="stylesheet" href="css/css/bootstrap.min.css">
 
-    <link href="fontawesome/css/all.css" rel="stylesheet">
-
 </head>
 
 <body>
-    <div class="eng-project row">
-        <!--Navigation-->
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0">
+  <div class="eng-project row">
+    <!--Navigation-->
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0">
 
-            <nav class="navbar navbar-expand-lg navbar-light-sm p-0">
-                <div class="w-100">
+      <nav class="navbar navbar-expand navbar-expand-lg navbar-light-sm p-0">
+        <div class="w-100 collapse navbar-collapse">
 
-                    <ul class="navbar-nav">
-                        <!-- Level one dropdown -->
-                        <div class="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0 m-0">
+          <ul class="navbar-nav mr-auto ">
+            <!-- Level one dropdown -->
 
-                            <div class="col-5 col-sm-4 col-md-2 col-lg-5 col-xl-4  row p-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">
+                    <img src="images/home.svg" class="nav-icon" />
+                    <span class="only-desktop">Naslovnica</span>
+                  </a>
+                </li>
 
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">
-                                        <i class="fas fa-home nav-icon"></i>
-                                        <span class="only-desktop">Naslovnica</span>
-                                    </a>
-                                </li>
+                <li class="nav-item dropdown">
+                  <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                    class="nav-link dropdown-toggle">
+                    <img src="images/menu.svg" class="nav-icon" />
+                    <span class="only-desktop">Izbornik</span>
+                  </a>
 
-                                <li class="nav-item dropdown">
-                                    <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false" class="nav-link dropdown-toggle">
-                                        <i class="fas fa-bars nav-icon"></i>
-                                        <span class="only-desktop">Izbornik</span>
-                                    </a>
-                                    <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0">
-                                        <li><a href="#"
-                                                class="dropdown-item font-weight-bold text-center modul-name">Engleski
-                                                jezik</a>
-                                        </li>
-                                        <li><a href="#" class="dropdown-item">1. Modul</a></li>
-                                        <li><a href="#" class="dropdown-item">2. Modul</a></li>
+                  <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0">
+                    <li>
+                      <a href="#" class="dropdown-item font-weight-bold text-center modul-name">Engleski jezik</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">
+                        <span>1.</span> Modul
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">
+                        <span>2.</span> Modul
+                      </a>
+                    </li>
 
-                                        <!-- Level two dropdown-->
-                                        <li class="dropdown-submenu">
-                                            <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown"
-                                                aria-haspopup="true" aria-expanded="false"
-                                                class="dropdown-item dropdown-toggle">3. Modul
-                                                <i class="fas fa-chevron-right"></i>
-                                            </a>
-                                            <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0">
-                                                <li>
-                                                    <a tabindex="-1" href="#" class="dropdown-item">3.1 Modul</a>
-                                                </li>
-                                                <li><a href="#" class="dropdown-item">3.2 Modul</a></li>
-                                                <li><a href="#" class="dropdown-item">3.3 Modul</a></li>
-                                            </ul>
-                                        </li>
-                                        <!-- End Level two -->
+                    <!-- Level two dropdown-->
+                    <li class="dropdown-submenu">
+                      <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false" class="dropdown-item dropdown-toggle">
+                        <span>3.</span> Modul
+                        <img src="images/arrow.svg" class="arrow-icon" />
+                      </a>
 
-                                        <li><a href="#" class="dropdown-item">4. Modul </a></li>
-                                        <li><a href="#" class="dropdown-item">5. Modul</a></li>
+                      <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0">
+                        <li>
+                          <a tabindex="-1" href="#" class="dropdown-item">
+                            <span>3.1</span>
+                             Modul</a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item">
+                            <span>3.2</span>
+                             Modul</a>
+                        </li>
+                        <li><a href="#" class="dropdown-item">
+                          <span>3.3</span>
+                           Modul</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- End Level two -->
 
-                                        <li class="dropdown-submenu">
-                                            <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown"
-                                                aria-haspopup="true" aria-expanded="false"
-                                                class="dropdown-item dropdown-toggle">6. Modul
-                                                <i class="fas fa-chevron-right"></i>
-                                            </a>
-                                            <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0">
-                                                <li>
-                                                    <a tabindex="-1" href="#" class="dropdown-item">6.1 Modul</a>
-                                                </li>
-                                                <li><a href="#" class="dropdown-item">6.2 Modul</a></li>
-                                                <li><a href="#" class="dropdown-item">6.3 Modul</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                    <li>
+                      <a href="#" class="dropdown-item">
+                        <span>4.</span>
+                         Modul
+                       </a>
+                     </li>
+                    <li>
+                      <a href="#" class="dropdown-item">
+                        <span>5.</span>
+                         Modul
+                       </a>
+                    </li>
 
-                                </li>
+                    <li class="dropdown-submenu">
+                      <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false" class="dropdown-item dropdown-toggle">
+                        <span>6.</span>
+                         Modul
+                        <img src="images/arrow.svg" class="arrow-icon" />
+                      </a>
+                      <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0">
+                        <li>
+                          <a tabindex="-1" href="#" class="dropdown-item">
+                            <span>6.1</span>
+                            Modul
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item">
+                            <span>6.2</span>
+                             Modul
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="dropdown-item">
+                            <span>6.3</span>
+                             Modul
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <i class="far fa-book-open nav-icon"></i>
-                                        <span class="only-desktop">Pojmovnik</span>
-                                    </a>
-                                </li>
-                            </div>
-                            <div
-                                class="col-7 col-sm-8 col-md-10 col-lg-7 col-xl-8  row d-block text-right p-0 search-container">
-                                <li class="col-8 col-sm-2 col-md-4 col-lg-9 col-xl-10 nav-item d-inline-block search">
-                                    <form class="d-block text-right">
-                                        <input class="form-control search-input p-0 m-0" type="search"
-                                            placeholder="Traži" aria-label="Traži">
-                                    </form>
-                                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/literature.svg" class="nav-icon" />
+                    <span class="only-desktop">Pojmovnik</span>
+                  </a>
+                </li>
+              </ul>
 
-                                <li class="col-2 col-sm-2 col-md-1 col-lg-3 col-xl-2 nav-item d-inline-block last">
-                                    <a class="nav-link" href="#">
-                                        <i class="fas fa-cog nav-icon"></i>
-                                        <span class="only-desktop">Postavke</span>
-                                    </a>
-                                </li>
-                            </div>
+              <ul class="navbar-nav mt-lg-0">
+                <li class="nav-item search-container">
+                    <div class="input-group search md-form form-sm form-2 pl-0">
+                      <input class="form-control text-right border-white" type="text" placeholder="Traži" aria-label="Traži">
+                        <img src="images/search.svg" class="nav-icon" />
+                    </div>
+                </li>
 
-                        </div>
-                    </ul>
-                </div>
-            </nav>
-
-            <!-- End -->
+                <li class="nav-item last">
+                  <a class="nav-link" href="#">
+                    <img src="images/literature.svg" class="nav-icon" />
+                    <span class="only-desktop">Postavke</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
 
         </div>
-    </div>
+      <!-- End -->
+  </div>
 
     <!--Header-->
-    <header>
 
-        <div class="row col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0 m-0 header-container module-container">
-            <div class="eu-image">
-                <img src="images/eu.png" alt="EU - Zajedno do fondova EU">
-            </div>
-
-            <div class="col-sm-0 col-md-1 col-lg-1 col-xl-2 p-0"></div>
-
-            <div class="row col-sm-12 col-md-10 col-lg-10 col-xl-8 header-text m-0">
-
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 p-0 pr-4 text-right module-arrow">
-                    <i class="fas fa-arrow-left only-desktop"></i>
-                    <i class="fas fa-chevron-left only-mobile"></i>
-                </div>
-                <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 p-0">
-                    <h1 class="header-title">1.1 Naslov prvog modula od više riječi</h1>
-
-                    <div class="header-button pt-3">
-                        <button class="cta-button">Moći ću...</button>
-                    </div>
-                </div>
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 p-0 pl-4 text-left module-arrow">
-                    <i class="fas fa-arrow-right only-desktop"></i>
-                    <i class="fas fa-chevron-right only-mobile"></i>
-                </div>
-
-            </div>
-
-
-            <div class="col-sm-0 col-md-1 col-lg-1 col-xl-2 p-0"></div>
+    <header class="row justify-content-md-center p-0 m-0 header-container module-container">
+        <img src="/images/en1_header.png" alt="Header" class="hero-image">
+        <div class="eu-image">
+          <img src="/images/eu.png" alt="EU - Zajedno do fondova EU">
         </div>
 
+        <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 header-text">
+          <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 p-0 text-right module-arrow">
+              <img src="/images/arrow-left.svg" alt="Header" class="only-desktop">
+              <img src="/images/arrow-left-mobile.svg" alt="Header" class="only-mobile">
+          </div>
+          <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+          <h1 class="header-title">1.1 Naslov prvog modula od više riječi</h1>
+        </div>
+
+        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 p-0 text-left module-arrow">
+            <img src="/images/arrow-right.svg" alt="Header" class="hero only-desktop">
+            <img src="/images/arrow-right-mobile.svg" alt="Header" class="hero only-mobile">
+        </div>
+
+        <button class="cta-button header-button">Moći ću...</button>
+
+      </div>
 
 
     </header>
 
     <!-- main -->
 
-    <div class="main-container">
+  <div class="main-container">
 
-            <div style="width: 800px;
-            height: 400px;
-            border: 2px solid;
-            z-index: 25;
-            position: relative; margin: -150px auto 0;"></div>
+    <div class="row modules">
 
-
-        <div class="row col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0">
-
-            <div class="col-sm-0 col-md-1 col-lg-1 col-xl-2 p-0"></div>
-
-            <div class="row col-sm-10 col-md-10 col-lg-10 col-xl-8" style="margin: 0 auto !important;">
-
-                <div class="row modules">
-
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <a href="">
-                            <div class="module-container">
-                                <div class="module-item">
-                                    <div class="module-image">
-                                        <img src="images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
-                                    </div>
-                                    <div class="module-number">1.1</div>
-                                    <div class="module-title">Naslov prvog modula od više riječi</div>
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <a href="">
-                            <div class="module-container">
-                                <div class="module-item">
-                                    <div class="module-image">
-                                        <img src="images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
-                                    </div>
-                                    <div class="module-number">1.2</div>
-                                    <div class="module-title">Naslov prvog modula od više riječi</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <a href="">
-                            <div class="module-container">
-                                <div class="module-item">
-                                    <div class="module-image">
-                                        <img src="images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
-                                    </div>
-                                    <div class="module-number">1.3</div>
-                                    <div class="module-title">Naslov prvog modula od više riječi</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <a href="">
-                            <div class="module-container">
-                                <div class="module-item">
-                                    <div class="module-image">
-                                        <img src="images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
-                                    </div>
-                                    <div class="module-number">1.4</div>
-                                    <div class="module-title">Naslov prvog modula od više riječi</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <a href="">
-                            <div class="module-container">
-                                <div class="module-item">
-                                    <div class="module-image">
-                                        <img src="images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
-                                    </div>
-                                    <div class="module-number">1.5</div>
-                                    <div class="module-title">Naslov prvog modula od više riječi</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <a href="">
-                            <div class="module-container">
-                                <div class="module-item">
-                                    <div class="module-image">
-                                        <img src="images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
-                                    </div>
-                                    <div class="module-number">1.6</div>
-                                    <div class="module-title">Naslov prvog modula od više riječi</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <a href="">
-                            <div class="module-container">
-                                <div class="module-item">
-                                    <div class="module-image">
-                                        <img src="images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
-                                    </div>
-                                    <div class="module-number">1.7</div>
-                                    <div class="module-title">Naslov prvog modula od više riječi</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <a href="">
-                            <div class="module-container">
-                                <div class="module-item">
-                                    <div class="module-image">
-                                        <img src="images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
-                                    </div>
-                                    <div class="module-number">1.8</div>
-                                    <div class="module-title">Naslov prvog modula od više riječi</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="row explores">
-
-                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 activity-item">
-                        <div class="explore-container row">
-                            <div class="row col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 explore-left">
-                                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 explore-img">
-                                    <img src="images/istrazi.png" alt="">
-                                    <div class="explore-title">
-                                        Istraži
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 explore-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reiciendis quia
-                                    magnam
-                                    recusandae,
-                                    deserunt dolore dolor qui voluptatibus distinctio quas cupiditate illo expedita sed
-                                    ipsam ad, quasi
-                                    ullam quo optio.
-                                </div>
-                            </div>
-                            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 text-right explore-right">
-                                <a href="">
-                                    <img src="images/new-page.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 activity-item">
-                        <div class="explore-container row">
-                            <div class="row col-sm-10 col-md-10 col-lg-10 col-xl-10 explore-left">
-                                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 explore-img">
-                                    <img src="images/istrazi.png" alt="">
-                                    <div class="explore-title">
-                                        Istraži
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 explore-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reiciendis quia
-                                    magnam
-                                    recusandae,
-                                    deserunt dolore dolor qui voluptatibus distinctio quas cupiditate illo expedita sed
-                                    ipsam ad, quasi
-                                    ullam quo optio.
-                                </div>
-                            </div>
-                            <div class="col col-sm-2 col-md-2 col-lg-2 col-xl-2 text-right explore-right">
-                                <a href="">
-                                    <img src="images/new-page.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 activity-item">
-
-                        <div class="explore-container row">
-                            <div class="row col-sm-10 col-md-10 col-lg-10 col-xl-10 explore-left">
-                                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 explore-img">
-                                    <img src="images/istrazi.png" alt="">
-                                    <div class="explore-title">
-                                        Istraži
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 explore-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reiciendis quia
-                                    magnam
-                                    recusandae,
-                                    deserunt dolore dolor qui voluptatibus distinctio quas cupiditate illo expedita sed
-                                    ipsam ad, quasi
-                                    ullam quo optio.
-                                </div>
-                            </div>
-                            <div class="col col-sm-2 col-md-2 col-lg-2 col-xl-2 text-right explore-right">
-                                <a href="">
-                                    <img src="images/new-page.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-
+      <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+        <a href="module.html">
+          <div class="module-container">
+            <div class="module-item">
+              <div class="module-image">
+                <img src="/images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
+              </div>
+              <p class="module-number">1</p>
+              <h3 class="module-title">Naslov prvog modula od više riječi</h3>
             </div>
-            <div class="col-sm-0 col-md-1 col-lg-1 col-xl-2 p-0"></div>
+          </div>
+        </a>
+      </div>
 
+      <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+        <a href="">
+          <div class="module-container">
+            <div class="module-item">
+              <div class="module-image">
+                <img src="/images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
+              </div>
+              <p class="module-number">2</p>
+              <h3 class="module-title">Naslov prvog modula od više riječi</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+        <a href="">
+          <div class="module-container">
+            <div class="module-item">
+              <div class="module-image">
+                <img src="/images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
+              </div>
+              <p class="module-number">3</p>
+              <h3 class="module-title">Naslov prvog modula od više riječi</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+        <a href="">
+          <div class="module-container">
+            <div class="module-item">
+              <div class="module-image">
+                <img src="/images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
+              </div>
+              <p class="module-number">4</p>
+              <h3 class="module-title">Naslov prvog modula od više riječi</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+        <a href="">
+          <div class="module-container">
+            <div class="module-item">
+              <div class="module-image">
+                <img src="/images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
+              </div>
+              <p class="module-number">5</p>
+              <h3 class="module-title">Naslov prvog modula od više riječi</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+        <a href="">
+          <div class="module-container">
+            <div class="module-item">
+              <div class="module-image">
+                <img src="/images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
+              </div>
+              <p class="module-number">6</p>
+              <h3 class="module-title">Naslov prvog modula od više riječi</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+        <a href="">
+          <div class="module-container">
+            <div class="module-item">
+              <div class="module-image">
+                <img src="/images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
+              </div>
+              <p class="module-number">7</p>
+              <h3 class="module-title">Naslov prvog modula od više riječi</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+        <a href="">
+          <div class="module-container">
+            <div class="module-item">
+              <div class="module-image">
+                <img src="/images/modul_1_photo.png" alt="Naslov prvog modula od više riječi">
+              </div>
+              <p class="module-number">8</p>
+              <h3 class="module-title">Naslov prvog modula od više riječi</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="row explores">
+
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 activity-item">
+            <div class="explore-container">
+                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 explore-img">
+                    <img src="images/istrazi.png" alt="">
+                    <div class="explore-title">
+                        Istraži
+                    </div>
+                </div>
+
+                <div class="row explore-text">
+                  <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reiciendis quia
+                      magnam
+                      recusandae,
+                      deserunt dolore dolor qui voluptatibus distinctio quas cupiditate illo expedita sed
+                      ipsam ad, quasi
+                      ullam quo optio.</p>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 text-right explore-right">
+                      <a href="">
+                          <img src="images/new-page.png" alt="">
+                      </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 activity-item">
+            <div class="explore-container">
+                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 explore-img">
+                    <img src="images/istrazi.png" alt="">
+                    <div class="explore-title">
+                        Istraži
+                    </div>
+                </div>
+
+                <div class="row explore-text">
+                  <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reiciendis quia
+                      magnam
+                      recusandae,
+                      deserunt dolore dolor qui voluptatibus distinctio quas cupiditate illo expedita sed
+                      ipsam ad, quasi
+                      ullam quo optio.</p>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 text-right explore-right">
+                      <a href="">
+                          <img src="images/new-page.png" alt="">
+                      </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 activity-item">
+
+            <div class="explore-container row align-items-center">
+                <div class="col-5 col-sm-5 col-lg-2 explore-img">
+                    <img src="images/istrazi.png" alt="">
+                </div>
+
+                <div class="col-7 col-sm-7 col-md-7 col-lg-3 col-xl-3 pr-0">
+                  <h2 class="explore-title">Provjeri svoje znanje! </h2>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  explore-text pr-0 pl-0">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reiciendis quia magnam
+                    recusandae,
+                    deserunt dolore dolor qui voluptatibus distinctio quas cupiditate illo expedita sed
+                    ipsam ad, quasi
+                    ullam quo optio.</p>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1 text-right explore-right">
+                    <a href="">
+                        <img src="images/new-page.png" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
 
     </div>
 
+  </div>
+
     <footer>
-        <div class="row footer-container">
-            <div class="col-sm-0 col-md-1 col-lg-1 col-xl-2 p-0"></div>
-            <div class="row col-sm-12 col-md-10 col-lg-10 col-xl-8 p-0">
+      <div class="justify-content-md-center  footer-container">
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-3"><a href="">Impresum</a></div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-3">v.20190912</div>
 
-                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-3"><a href="">Impresum</a></div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-3">v.20190912</div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3 footer-images">
+            <img src="/images/eu.png" alt="">
+            <img src="/images/strukturni-fondovi.png" alt="">
+            <img src="/images/carnet.png" alt="">
+            <img src="/images/carnet.png" alt="">
+            <img src="/images/carnet.png" alt="">
+          </div>
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3 footer-images">
-                    <img src="images/eu.png" alt="">
-                    <img src="images/strukturni-fondovi.png" alt="">
-                    <img src="images/carnet.png" alt="">
-                    <img src="images/carnet.png" alt="">
-                    <img src="images/carnet.png" alt="">
-                </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3">
+            <p>Projekt je sufinanciran iz Europskog socijalnog fonda.</p>
+            <p>Više informacija o EU fondovima možeze naći na web stranicama Ministarstva regionalnog razvoja i
+              fondova
+              Europske unije: <a href="https://strukturnifondovi.hr/" target="_blank">https://strukturnifondovi.hr/</a>
+            </p>
+          </div>
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3">
-                    <div>Projekt je sufinanciran iz Europskog socijalnog fonda.</div>
-                    <div>Više informacija o EU fondovima možeze naći na web stranicama Ministarstva regionalnog razvoja
-                        i
-                        fondova
-                        Europske unije: <a href="https://strukturnifondovi.hr/"
-                            target="_blank">https://strukturnifondovi.hr/</a>
-                    </div>
-                </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3">
+            <p>Sadržaj ovog materjala je isključiva odgovornost Htvatske akademske i istraživačke mreže - CARNET</p>
+          </div>
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3">
-                    <div>Sadržaj ovog materjala je isključiva odgovornost Htvatske akademske i istraživačke mreže -
-                        CARNET</div>
-                </div>
-
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3">
-                    <img src="images/by-nc-sa.png" alt="">
-                    <div>Ovo je jelo dano na korištenje pod licencom Creative Commons Imenovanje - Nekomrecijalno -
-                        Dijeli
-                        3.0</div>
-                    <div>Hrvatska</div>
-                </div>
-
-            </div>
-            <div class="col-sm-0 col-md-1 col-lg-1 col-xl-2 p-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3">
+            <img src="/images/by-nc-sa.png" alt="">
+            <p>Ovo je jelo dano na korištenje pod licencom Creative Commons Imenovanje - Nekomrecijalno - Dijeli
+              3.0</p>
+            <p>Hrvatska</p>
+          </div>
         </div>
+      </div>
     </footer>
 
 
