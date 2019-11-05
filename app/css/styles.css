@@ -369,7 +369,9 @@ textarea {
   width: 100%; }
   @media (min-width: 1024px) {
     .eng-project .modul-name {
-      width: 300px; } }
+      width: 302px; } }
+  .eng-project .modul-name:hover {
+    background-color: transparent; }
 
 .eng-project .dropdown-item {
   border-bottom: 1px solid !important;
@@ -380,6 +382,8 @@ textarea {
     background-color: #a6a6a6 !important; }
   .eng-project .dropdown-item span {
     font-weight: bold; }
+  .eng-project .dropdown-item.text-wrap {
+    padding-right: 35px; }
 
 .eng-project .dropdown-submenu {
   position: relative; }
@@ -389,7 +393,10 @@ textarea {
     position: absolute;
     right: 20px;
     top: 10px;
-    width: 14px; }
+    width: 14px;
+    text-decoration: none; }
+    .eng-project .dropdown-submenu .dropdown-toggle:hover > .dropdown-item {
+      background-color: red; }
     .eng-project .dropdown-submenu .dropdown-toggle .arrow-icon {
       width: 14px; }
     .eng-project .dropdown-submenu .dropdown-toggle.show .arrow-icon {
@@ -531,6 +538,11 @@ textarea {
     padding-right: 8px;
     width: 24px; } }
 
+.eng-project .dropdown-submenu:hover {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #a6a6a6 !important; }
+
 header {
   width: 100%; }
 
@@ -636,11 +648,13 @@ header {
     cursor: pointer; }
     .module-container .module-item .module-image {
       max-height: 200px;
-      overflow: hidden; }
+      overflow: hidden;
+      position: relative;
+      border-bottom: 4px solid #e27173; }
       .module-container .module-item .module-image img {
         width: 100%;
         height: auto;
-        border-radius: 4%; }
+        border-radius: 2.5%; }
     .module-container .module-item .module-number {
       font-size: 2em;
       width: 2em;
@@ -655,7 +669,9 @@ header {
       background-color: #314455;
       z-index: 9;
       color: #e27173;
-      position: relative; }
+      position: absolute;
+      right: 0;
+      left: 0; }
     .module-container .module-item .module-title {
       border-top: 3px solid #e27173;
       margin-top: -1em;

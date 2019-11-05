@@ -39,11 +39,13 @@
     .module-image {
       max-height: 200px;
       overflow: hidden;
+      position: relative;
+      border-bottom: 4px solid #e27173;
 
       img {
         width: 100%;
         height: auto;
-        border-radius: 4%;
+        border-radius: 2.5%;
       }
     }
     .module-number {
@@ -60,7 +62,9 @@
       background-color: #314455;
       z-index: 9;
       color: #e27173;
-      position: relative;
+      position: absolute;
+      right: 0;
+      left: 0;
     }
     .module-title {
       border-top: 3px solid #e27173;
